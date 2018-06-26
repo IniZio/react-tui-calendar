@@ -1,0 +1,42 @@
+{
+  "name": "react-tui-calendar",
+  "version": "1.0.0",
+  "description": "React wrapper for tui-calendar",
+  "main": "dist/react-tui-calendar.cjs.js",
+  "module": "dist/react-tui-calendar.es.js",
+  "browser": "dist/react-tui-calendar.min.js",
+  "unpkg": "dist/react-tui-calendar.min.js",
+  "jsdelivr": "dist/react-tui-calendar.min.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "tui-calendar",
+    "calendar"
+  ],
+  "scripts": {
+    "dev": "NODE_ENV=development bili --watch",
+    "build": "NODE_ENV=production bili --compress --no-inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IniZio/react-tui-calendar.git"
+  },
+  "author": "IniZio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IniZio/react-tui-calendar/issues"
+  },
+  "homepage": "https://github.com/IniZio/react-tui-calendar#readme",
+  "devDependencies": {
+    "bili": "^3.1.2",
+    "react": "^16.4.1",
+    "tui-calendar": "^1.3.0"
+  },
+  "peerDependencies": {
+    "react": "^16.4.1",
+    "tui-calendar": "^1.3.0"
+  }
+}
