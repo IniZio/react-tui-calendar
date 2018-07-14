@@ -4,7 +4,7 @@
   "description": "React wrapper for tui-calendar",
   "main": "dist/react-tui-calendar.cjs.js",
   "module": "dist/react-tui-calendar.es.js",
-  "browser": "dist/react-tui-calendar.min.js",
+  "browser": "dist/react-tui-calendar.iife.min.js",
   "unpkg": "dist/react-tui-calendar.min.js",
   "jsdelivr": "dist/react-tui-calendar.min.js",
   "files": [
@@ -38,5 +38,8 @@
   "peerDependencies": {
     "react": "^16.4.1",
     "tui-calendar": "^1.3.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.7.4"
   }
 }
