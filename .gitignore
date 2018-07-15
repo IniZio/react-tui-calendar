@@ -1,12 +1,16 @@
 
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+# cache
+.ghpages-tmp
+
 # dependencies
 node_modules
 
 # builds
 build
 dist
+styleguide
 
 # misc
 .DS_Store
@@ -17,5 +21,6 @@ dist
 .env.production.local
 
 npm-debug.log*
+pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*

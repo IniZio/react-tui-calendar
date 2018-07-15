@@ -1,0 +1,9 @@
+@import url(../node_modules/tui-calendar/dist/tui-calendar.min.css);
+
+.tui-full-calendar-popup-section.tui-full-calendar-section-header {
+  height: auto;
+}
+
+.tui-full-calendar-vlayout-container {
+  border-bottom: 1px solid #e5e5e5;
+}
